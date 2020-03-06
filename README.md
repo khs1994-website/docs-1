@@ -1,19 +1,36 @@
-# What is this?
+---
+name: 简介
+---
 
-This repository is the documentation for the open source project Gogs.
+# 什么是 Gogs?
 
-## Contributing
+Gogs 是一款极易搭建的自助 Git 服务。
 
-Fork, update and submit a pull request. No matter how big or small, your changes are welcome!
+## 开发目的
 
-## How it works
+Gogs 的目标是打造一个最简单、最快速和最轻松的方式搭建自助 Git 服务。使用 Go 语言开发使得 Gogs 能够通过独立的二进制分发，并且支持 Go 语言支持的 **所有平台**，包括 Linux、Mac OS X、Windows 以及 ARM 平台。
 
-The Gogs web server checks for updates to this project and updates the main documentation automatically.
+## 开源组件
 
-## Formatting
-
-Gogs documentation is written using standard [markdown syntax](https://help.github.com/articles/markdown-basics/). Please submit your changes using the same syntax.
-
-## License
-
-This project is under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for the full license text.
+- Web 框架：[Macaron](http://go-macaron.com)
+- UI 组件：
+    - [Semantic UI](http://semantic-ui.com/)
+    - [GitHub Octicons](https://octicons.github.com/)
+    - [Font Awesome](http://fontawesome.io/)
+- 前端插件：
+    - [DropzoneJS](http://www.dropzonejs.com/)
+    - [highlight.js](https://highlightjs.org/)
+    - [clipboard.js](https://zenorocha.github.io/clipboard.js/)
+    - [emojify.js](https://github.com/Ranks/emojify.js)
+    - [jQuery Date Time Picker](https://github.com/xdan/datetimepicker)
+    - [jQuery MiniColors](https://github.com/claviska/jquery-minicolors)
+    - [CodeMirror](https://codemirror.net/)
+    - [notebook.js](https://github.com/jsvine/notebookjs)
+    - [marked](https://github.com/chjj/marked)
+- ORM：[Xorm](https://github.com/go-xorm/xorm)
+- 数据库驱动：
+    - [github.com/go-sql-driver/mysql](https://github.com/go-sql-driver/mysql)
+    - [github.com/lib/pq](https://github.com/lib/pq)
+    - [github.com/mattn/go-sqlite3](https://github.com/mattn/go-sqlite3)
+    - [github.com/denisenkom/go-mssqldb](https://github.com/denisenkom/go-mssqldb)
+- 以及其它所有 Go 语言的第三方包依赖。
