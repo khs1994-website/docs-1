@@ -1,0 +1,673 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Install From Binary · Gogs 中文文档</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="install_from_packages.html" />
+    
+    
+    <link rel="prev" href="configuration_and_run.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://docs.khs1994.com" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../advanced/">
+            
+                <a href="../advanced/">
+            
+                    
+                    Advanced
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../advanced/configuration_cheat_sheet.html">
+            
+                <a href="../advanced/configuration_cheat_sheet.html">
+            
+                    
+                    Configuration Cheat Sheet
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../features/">
+            
+                <a href="../features/">
+            
+                    
+                    Features
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../features/authentication.html">
+            
+                <a href="../features/authentication.html">
+            
+                    
+                    Authentication
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../features/custom_template.html">
+            
+                <a href="../features/custom_template.html">
+            
+                    
+                    Custom Template
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../features/i18n.html">
+            
+                <a href="../features/i18n.html">
+            
+                    
+                    I 18 N
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../features/webhook.html">
+            
+                <a href="../features/webhook.html">
+            
+                    
+                    Webhook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="configuration_and_run.html">
+            
+                <a href="configuration_and_run.html">
+            
+                    
+                    Configuration And Run
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.2" data-path="install_from_binary.html">
+            
+                <a href="install_from_binary.html">
+            
+                    
+                    Install From Binary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="install_from_packages.html">
+            
+                <a href="install_from_packages.html">
+            
+                    
+                    Install From Packages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="install_from_source.html">
+            
+                <a href="install_from_source.html">
+            
+                    
+                    Install From Source
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="run_as_windows_service.html">
+            
+                <a href="run_as_windows_service.html">
+            
+                    
+                    Run As Windows Service
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../intro/">
+            
+                <a href="../intro/">
+            
+                    
+                    Intro
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../intro/faqs.html">
+            
+                <a href="../intro/faqs.html">
+            
+                    
+                    Faqs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../intro/troubleshooting.html">
+            
+                <a href="../intro/troubleshooting.html">
+            
+                    
+                    Troubleshooting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../upgrade/">
+            
+                <a href="../upgrade/">
+            
+                    
+                    Upgrade
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../upgrade/upgrade_from_binary.html">
+            
+                <a href="../upgrade/upgrade_from_binary.html">
+            
+                    
+                    Upgrade From Binary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../upgrade/upgrade_from_source.html">
+            
+                <a href="../upgrade/upgrade_from_source.html">
+            
+                    
+                    Upgrade From Source
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../donate.html">
+            
+                <a href="../donate.html">
+            
+                    
+                    Donate
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Install From Binary</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4E8C;&#x8FDB;&#x5236;&#x5B89;&#x88C5;">&#x4E8C;&#x8FDB;&#x5236;&#x5B89;&#x88C5;</h1>
+<p><strong>&#x76EE;&#x524D;&#x53EA;&#x63D0;&#x4F9B;&#x6700;&#x8FD1;&#x53D1;&#x5E03;&#x7684;&#x5C0F;&#x7248;&#x672C;&#x4E8C;&#x8FDB;&#x5236;&#x4E0B;&#x8F7D;&#xFF0C;&#x66F4;&#x591A;&#x7248;&#x672C;&#x4E0B;&#x8F7D;&#x8BF7;&#x524D;&#x5F80; <a href="https://github.com/gogs/gogs/releases" target="_blank">GitHub</a> &#x67E5;&#x770B;&#x3002;</strong></p>
+<p>&#x6240;&#x6709;&#x7684;&#x7248;&#x672C;&#x90FD;&#x652F;&#x6301; <strong>MySQL</strong>&#x3001;<strong>PostgreSQL</strong> &#x548C; <strong>TiDB</strong>&#xFF08;&#x4F7F;&#x7528; MySQL &#x534F;&#x8BAE;&#xFF09;&#x4F5C;&#x4E3A;&#x6570;&#x636E;&#x5E93;&#xFF0C;&#x5E76;&#x4E14;&#x5747;&#x4F7F;&#x7528;&#x6784;&#x5EFA;&#x6807;&#x7B7E;&#xFF08;build tags&#xFF09;<strong><code>cert</code></strong> &#x8FDB;&#x884C;&#x6784;&#x5EFA;&#x3002;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x4E0D;&#x540C;&#x7684;&#x7248;&#x672C;&#x7684;&#x652F;&#x6301;&#x72B6;&#x6001;&#x6709;&#x6240;&#x4E0D;&#x540C;&#xFF0C;&#x8BF7;&#x6839;&#x636E;&#x5B9E;&#x9645;&#x7684; Gogs &#x63D0;&#x793A;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#x3002;</p>
+<h2 id="&#x5907;&#x6CE8;">&#x5907;&#x6CE8;</h2>
+<ul>
+<li><code>mws</code> &#x8868;&#x793A;&#x63D0;&#x4F9B;&#x5185;&#x7F6E; Windows &#x670D;&#x52A1;&#x652F;&#x6301;&#xFF0C;&#x5982;&#x679C;&#x60A8;&#x4F7F;&#x7528; NSSM &#x8BF7;&#x4F7F;&#x7528;&#x53E6;&#x5916;&#x4E00;&#x4E2A;&#x7248;&#x672C;&#x3002;</li>
+</ul>
+<h2 id="&#x5982;&#x4F55;&#x4F7F;&#x7528;&#x4E0B;&#x8F7D;&#x597D;&#x7684;&#x538B;&#x7F29;&#x5305;&#xFF1F;">&#x5982;&#x4F55;&#x4F7F;&#x7528;&#x4E0B;&#x8F7D;&#x597D;&#x7684;&#x538B;&#x7F29;&#x5305;&#xFF1F;</h2>
+<ol>
+<li>&#x68C0;&#x67E5;<a href="../docs/installation">&#x73AF;&#x5883;&#x8981;&#x6C42;</a>&#x662F;&#x5426;&#x5DF2;&#x6EE1;&#x8DB3;</li>
+<li>&#x89E3;&#x538B;&#x538B;&#x7F29;&#x5305;&#x3002;</li>
+<li>&#x4F7F;&#x7528;&#x547D;&#x4EE4; <code>cd</code> &#x8FDB;&#x5165;&#x5230;&#x521A;&#x521A;&#x521B;&#x5EFA;&#x7684;&#x76EE;&#x5F55;&#x3002;</li>
+<li>&#x6267;&#x884C;&#x547D;&#x4EE4; <code>./gogs web</code>&#x3002;</li>
+<li>Gogs &#x9ED8;&#x8BA4;&#x4F1A;&#x5728;&#x7AEF;&#x53E3; <code>3000</code> &#x542F;&#x52A8; HTTP &#x670D;&#x52A1;&#xFF0C;&#x8BBF;&#x95EE; <code>/install</code> &#x4EE5;&#x8FDB;&#x884C;&#x521D;&#x59CB;&#x914D;&#x7F6E;&#xFF08;&#x4F8B;&#x5982; <a href="http://localhost:3000/install" target="_blank">http://localhost:3000/install</a> &#xFF09;&#x3002;</li>
+</ol>
+<p>&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x540E;&#x53EF;&#x7EE7;&#x7EED;&#x53C2;&#x7167; <a href="configuration_and_run.html">&#x914D;&#x7F6E;&#x4E0E;&#x8FD0;&#x884C;</a>&#x3002;</p>
+<h2 id="&#x5982;&#x4F55;&#x901A;&#x8FC7;&#x4E8C;&#x8FDB;&#x5236;&#x5347;&#x7EA7;&#xFF1F;">&#x5982;&#x4F55;&#x901A;&#x8FC7;&#x4E8C;&#x8FDB;&#x5236;&#x5347;&#x7EA7;&#xFF1F;</h2>
+<ol>
+<li>&#x4E0B;&#x8F7D;&#x6700;&#x65B0;&#x7248;&#x7684;&#x538B;&#x7F29;&#x5305;&#x3002;</li>
+<li>&#x5220;&#x9664;&#x5F53;&#x524D;&#x7684; <code>templates</code> &#x76EE;&#x5F55;&#x3002;</li>
+<li>&#x89E3;&#x538B;&#x538B;&#x7F29;&#x5305;&#x5E76;&#x5C06;&#x6240;&#x6709;&#x5185;&#x5BB9;&#x590D;&#x5236;&#x7C98;&#x8D34;&#x5230;&#x76F8;&#x5E94;&#xFF08;&#x5F53;&#x524D;&#xFF09;&#x7684;&#x4F4D;&#x7F6E;&#x3002;</li>
+</ol>
+<h3 id="0123--2020-10-07">0.12.3 @ 2020-10-07</h3>
+<table>
+<thead>
+<tr>
+<th>&#x7CFB;&#x7EDF;&#x540D;&#x79F0;</th>
+<th>&#x7CFB;&#x7EDF;&#x7C7B;&#x578B;</th>
+<th>SQLite</th>
+<th>PAM</th>
+<th>&#x4E0B;&#x8F7D;&#xFF08;<a href="https://github.com/gogs/gogs/releases/tag/v0.12.3" target="_blank">GitHub</a>&#xFF09;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linux</td>
+<td>386</td>
+<td>&#x2705;</td>
+<td>&#x2705;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.12.3/gogs_0.12.3_linux_386.zip" target="_blank">ZIP</a> \</td>
+<td><a href="https://dl.gogs.io/0.12.3/gogs_0.12.3_linux_386.tar.gz" target="_blank">TAR.GZ</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>amd64</td>
+<td>&#x2705;</td>
+<td>&#x2705;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.12.3/gogs_0.12.3_linux_amd64.zip" target="_blank">ZIP</a> \</td>
+<td><a href="https://dl.gogs.io/0.12.3/gogs_0.12.3_linux_amd64.tar.gz" target="_blank">TAR.GZ</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>armv7</td>
+<td>&#x2705;</td>
+<td>&#x2705;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.12.3/gogs_0.12.3_linux_armv7.zip" target="_blank">ZIP</a></td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>amd64</td>
+<td>&#x2705;</td>
+<td>&#x274C;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.12.3/gogs_0.12.3_windows_amd64.zip" target="_blank">ZIP</a> \</td>
+<td><a href="https://dl.gogs.io/0.12.3/gogs_0.12.3_windows_amd64_mws.zip" target="_blank">ZIP w/ mws</a></td>
+</tr>
+<tr>
+<td>macOS</td>
+<td>amd64</td>
+<td>&#x2705;</td>
+<td>&#x274C;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.12.3/gogs_0.12.3_darwin_amd64.zip" target="_blank">ZIP</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="01191--2019-08-11">0.11.91 @ 2019-08-11</h3>
+<table>
+<thead>
+<tr>
+<th>&#x7CFB;&#x7EDF;&#x540D;&#x79F0;</th>
+<th>&#x7CFB;&#x7EDF;&#x7C7B;&#x578B;</th>
+<th>SQLite</th>
+<th>PAM</th>
+<th>&#x4E0B;&#x8F7D;&#xFF08;<a href="https://github.com/gogs/gogs/releases/tag/v0.11.91" target="_blank">GitHub</a>&#xFF09;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linux</td>
+<td>386</td>
+<td>&#x2705;</td>
+<td>&#x2705;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_linux_386.zip" target="_blank">ZIP</a> \</td>
+<td><a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_linux_386.tar.gz" target="_blank">TAR.GZ</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>amd64</td>
+<td>&#x2705;</td>
+<td>&#x2705;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_linux_amd64.zip" target="_blank">ZIP</a> \</td>
+<td><a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_linux_amd64.tar.gz" target="_blank">TAR.GZ</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>armv5</td>
+<td>&#x274C;</td>
+<td>&#x274C;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_linux_armv5.zip" target="_blank">ZIP</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>armv6</td>
+<td>&#x274C;</td>
+<td>&#x274C;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_linux_armv6.zip" target="_blank">ZIP</a></td>
+</tr>
+<tr>
+<td>Raspberry Pi</td>
+<td>v2/v3 / armv7</td>
+<td>&#x2705;</td>
+<td>&#x2705;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_raspi_armv7.zip" target="_blank">ZIP</a> \</td>
+<td><a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_raspi_armv7.tar.gz" target="_blank">TAR.GZ</a></td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>386</td>
+<td>&#x2705;</td>
+<td>&#x274C;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_windows_386.zip" target="_blank">ZIP</a> \</td>
+<td><a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_windows_386_mws.zip" target="_blank">ZIP w/ mws</a></td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>amd64</td>
+<td>&#x2705;</td>
+<td>&#x274C;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_windows_amd64.zip" target="_blank">ZIP</a> \</td>
+<td><a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_windows_amd64_mws.zip" target="_blank">ZIP w/ mws</a></td>
+</tr>
+<tr>
+<td>macOS</td>
+<td>amd64</td>
+<td>&#x2705;</td>
+<td>&#x274C;</td>
+<td>HTTPS: <a href="https://dl.gogs.io/0.11.91/gogs_0.11.91_darwin_amd64.zip" target="_blank">ZIP</a></td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="configuration_and_run.html" class="navigation navigation-prev " aria-label="Previous page: Configuration And Run">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="install_from_packages.html" class="navigation navigation-next " aria-label="Next page: Install From Packages">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"name":"二进制安装","title":"Install From Binary","level":"1.4.2","depth":2,"next":{"title":"Install From Packages","level":"1.4.3","depth":2,"path":"installation/install_from_packages.md","ref":"installation/install_from_packages.md","articles":[]},"previous":{"title":"Configuration And Run","level":"1.4.1","depth":2,"path":"installation/configuration_and_run.md","ref":"installation/configuration_and_run.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-highlight","-livereload","prism"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-solarizedlight.css"]},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Gogs 中文文档","language":"zh-hans","links":{"sidebar":{"Home":"https://docs.khs1994.com"}},"gitbook":"*"},"file":{"path":"installation/install_from_binary.md","mtime":"2021-01-03T00:20:25.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-01-03T00:21:07.666Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
